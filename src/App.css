@@ -76,6 +76,12 @@ body{
   position: relative;
   margin-top: 10px;
 }
+.list-item.completed {
+  text-decoration: line-through;
+  color: green;
+  background-color: aliceblue;
+}
+
 .icons{
   position: absolute;
   right: 10px;
@@ -91,4 +97,13 @@ body{
 }
 .icon-delete:hover{
   color: red;
+}
+
+.icon-complete {
+  color: green;
+  cursor: pointer;
+}
+.icon-complete:hover{
+  transform: scale(1.5);
+  color: rgb(0, 255, 0);
 }
